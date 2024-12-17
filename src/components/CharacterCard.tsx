@@ -97,7 +97,6 @@ function CharacterCard() {
         </div>
       </div>
 
-      {/* Right Content with Scroll */}
       <div className="ml-[250px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5 overflow-scroll">
         {finalFilteredCharacters && finalFilteredCharacters.length > 0 ? (
           finalFilteredCharacters.map((data: any) => (
